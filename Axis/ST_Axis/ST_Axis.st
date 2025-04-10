@@ -1,6 +1,7 @@
 TYPE ST_Axis : STRUCT
         cmd     :ST_AxisCommand;
-        sta     :ST_AxisStatus;
         IO      :ST_AxisIO;
+        par     :ST_AxisParameter
+        sta     :ST_AxisStatus;
     END_STRUCT
 END_TYPE
