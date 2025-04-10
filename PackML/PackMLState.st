@@ -20,7 +20,7 @@ TYPE ST_PackMLState : STRUCT
     END_STRUCT
 END_TYPE
 
-TYPE PackMLState :
+TYPE E_PackMLState :
 (
 	Undenfind		:=0,	//未定义
 	Clearing		:=1,	//故障清除中
