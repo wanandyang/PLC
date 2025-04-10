@@ -1,14 +1,14 @@
 TYPE ST_OEE : STRUCT
-        rIdealCycle     :REAL;  //理论节拍
+        rIdealCycle     :REAL;  //理论节拍，需设置
         rActualCycle    :REAL;  //实际节拍
 
-        rCalendar       :REAL;  //总投入时间
+        rCalendar       :REAL;  //总投入时间，默认一天24小时
         rOperating      :REAL;  //负荷时间
         rRun            :REAL;  //稼动时间
         rNetRun         :REAL;  //净稼动时间
         rValuable       :REAL;  //价值稼动时间
 
-        rNoPlan         :REAL;  //无计划时间
+        rNoPlan         :REAL;  //无计划时间，需设置
         rDown           :REAL;  //宕机时间
         rSpeedLoss      :REAL;  //性能损失时间
         rQualityLoss    :REAL;  //品质不良时间

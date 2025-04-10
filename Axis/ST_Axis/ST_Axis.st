@@ -1,4 +1,4 @@
-TYPE StructName : ST_Axis
+TYPE ST_Axis : STRUCT
         cmd     :ST_AxisCommand;
         sta     :ST_AxisStatus;
         IO      :ST_AxisIO;

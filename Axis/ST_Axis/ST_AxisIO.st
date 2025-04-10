@@ -1,4 +1,4 @@
-TYPE StructName : ST_AxisIO
+TYPE ST_AxisIO : STRUCT
         bP_OT           :BOOL;  //正向极限
         bN_OT           :BOOL;  //负向极限
         bLatch1         :BOOL;  //探针1

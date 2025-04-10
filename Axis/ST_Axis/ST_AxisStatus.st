@@ -1,4 +1,4 @@
-TYPE StructName : ST_AxisStatus
+TYPE ST_AxisStatus : STRUCT
         bError              :BOOL;  //错误
 
         rActPos             :REAL;  //当前位置
