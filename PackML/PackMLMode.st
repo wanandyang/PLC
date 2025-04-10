@@ -10,13 +10,14 @@ TYPE ST_PackMLMode : STRUCT
     END_STRUCT
 END_TYPE
 
-TYPE E_PackMLMode (
-    Invalid     :=0;    (* 未定义模式 *)
-    production  :=1;    (* 生产模式 *)
-    Maintenance :=2;    (* 维护模式 *)
-    Manual      :=3;    (* 手动模式 *)
+TYPE E_PackMLMode :
+(
+    Invalid     :=0,    (* 未定义模式 *)
+    production  :=1,    (* 生产模式 *)
+    Maintenance :=2,    (* 维护模式 *)
+    Manual      :=3,    (* 手动模式 *)
     (*以下为自定义模式*) 
-    SingleStep  :=4;    (* 单步模式 *)
-    E_Stop      :=5;    (* 急停模式 *)
-)
+    SingleStep  :=4,    (* 单步模式 *)
+    E_Stop      :=5     (* 急停模式 *)
+);
 END_TYPE

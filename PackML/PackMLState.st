@@ -16,7 +16,7 @@ TYPE ST_PackMLState : STRUCT
         Unsuspending	:BOOL;  //待料恢复中
         Resetting		:BOOL;  //初始化中 
         Completing		:BOOL;  //完成准备中
-        Complete		:BOOL;  //生产完成	
+        Completed		:BOOL;  //生产完成	
     END_STRUCT
 END_TYPE
 
@@ -39,6 +39,6 @@ TYPE E_PackMLState :
 	Unsuspending	:=14,	//待料恢复中
 	Resetting		:=15,	//初始化中
 	Completing		:=16,	//完成准备中
-	Complete		:=17	//生产完成	
+	Completed		:=17	//生产完成	
 );
 END_TYPE
