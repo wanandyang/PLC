@@ -1,4 +1,4 @@
-TYPE StructName : STRUCT
+TYPE ST_OEE : STRUCT
         rIdealCycle     :REAL;  //理论节拍
         rActualCycle    :REAL;  //实际节拍
 

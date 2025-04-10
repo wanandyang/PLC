@@ -1,4 +1,4 @@
-TYPE StructName : ST_AxisPos
+TYPE ST_AxisPos : STRUCT
         cmd     :ST_AxisPosCommand;
         par     :ST_AxisPosparameter;
         sta     :ST_AxisPosStatus;

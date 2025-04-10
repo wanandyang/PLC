@@ -1,4 +1,4 @@
-TYPE StructName : ST_AxisPosparameter
+TYPE ST_AxisPosparameter : STRUCT
         bAbsORRel       :BOOL;  //False为绝对定位，True为相对定位
         iDirecton       :INT;   //运动方向
         rSetPos         :REAL;  //目标位置
