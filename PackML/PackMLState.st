@@ -2,7 +2,7 @@ TYPE ST_PackMLState : STRUCT
         Undenfind		:BOOL;	//未定义  
         Clearing		:BOOL;  //故障清除中
         Stopped			:BOOL;  //停止   
-        Starting		:BOOL;  //自动准备中
+        Startting		:BOOL;  //自动准备中
         Idle			:BOOL;  //就绪   
         Suspended		:BOOL;  //待料   
         Execute			:BOOL;  //生产中  
@@ -25,7 +25,7 @@ TYPE E_PackMLState :
 	Undenfind		:=0,	//未定义
 	Clearing		:=1,	//故障清除中
 	Stopped			:=2,	//停止
-	Starting		:=3,	//自动准备中
+	Startting		:=3,	//自动准备中
 	Idle			:=4,	//就绪
 	Suspended		:=5,	//待料
 	Execute			:=6,	//生产中

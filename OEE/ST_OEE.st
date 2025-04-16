@@ -8,8 +8,10 @@ TYPE ST_OEE : STRUCT
         rNetRun         :REAL;  //净稼动时间
         rValuable       :REAL;  //价值稼动时间
 
-        rNoPlan         :REAL;  //无计划时间，需设置
+        rNoPlan         :REAL;  //无计划时间
+        arrNoPlanTpye   :ARRAY[0..19] OF REAL; //无计划时间分类点选，需设置iNoPlanTpye=0-19
         rDown           :REAL;  //宕机时间
+        arrDownTpye     :ARRAY[0..19] OF REAL; //宕机时间分类，需设置iDownTpye=0-19
         rSpeedLoss      :REAL;  //性能损失时间
         rQualityLoss    :REAL;  //品质不良时间
 
