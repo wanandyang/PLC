@@ -1,5 +1,4 @@
 TYPE ST_OEE : STRUCT
-        rIdealCycle     :REAL;  //理论节拍，需设置
         rActualCycle    :REAL;  //实际节拍
 
         rCalendar       :REAL;  //总投入时间，默认一天24小时
